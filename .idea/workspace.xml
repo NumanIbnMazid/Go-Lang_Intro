@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c1c22c-06a0-4bb8-a4ce-99de4047df6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LEARN HOUSE 1/hello_world.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LEARN HOUSE 1/2_go_program_structure.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEARN HOUSE 1/hello_world.go" beforeDir="false" afterPath="$PROJECT_DIR$/LEARN HOUSE 1/1_hello_world.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LEARN HOUSE 1/helper.md" beforeDir="false" afterPath="$PROJECT_DIR$/LEARN HOUSE 1/helper.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +48,8 @@
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/math.go" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -57,7 +58,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build if_else_switch.go">
+  <component name="RunManager" selected="Go Build.go build 2_go_program_structure.go">
+    <configuration name="go build 2_go_program_structure.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go-Lang_Intro" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/LEARN HOUSE 1/2_go_program_structure.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build hello_world.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go-Lang_Intro" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/LEARN HOUSE 1/hello_world.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build if_else_switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Lang_Intro" />
       <working_directory value="$PROJECT_DIR$" />
@@ -76,8 +93,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build if_else_switch.go" />
+        <item itemvalue="Go Build.go build 2_go_program_structure.go" />
+        <item itemvalue="Go Build.go build hello_world.go" />
         <item itemvalue="Go Build.go build math.go" />
+        <item itemvalue="Go Build.go build if_else_switch.go" />
       </list>
     </recent_temporary>
   </component>
