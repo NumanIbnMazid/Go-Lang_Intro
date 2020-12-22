@@ -22,8 +22,8 @@ Every Go program is consists of following building blocks:
 
 # ToDO
 
-## Completed: Hello World
-### Link:
+## Completed: Go Lang Data Types
+### Link: https://www.w3adda.com/golang-tutorial/go-data-types
 
-## Next: 
-### Link: 
+## Next: Go Variables
+### Link: https://www.w3adda.com/golang-tutorial/go-variables
