@@ -105,5 +105,95 @@ func main() {
 	c |= d
 	fmt.Printf("%d|=5 : %d", temp, c)
 	temp = c
-	
+	println()
+
+	/*
+	------- Comparison Operators -------:
+	Comparison operators are used to evaluate a comparison between two operands. The result of comparison is a Boolean value that can be only true or false. Comparison operators are also referred as relational operators.
+
+	[a:=20, b:=10]
+
+	Operators	Description				Example
+	>		Greater than				a>b returns True
+	<		Less than					a,b returns False
+	>=		Greater than or Equal to	a>=b returns True
+	<=		Less than or equal to		a<=b returns False
+	==		Is equal to					a==b returns False
+	!=		Not equal to				a!=b returns True
+	*/
+
+	var e, f int = 20, 10
+	if (e > f) {
+		fmt.Println("e is greater than f")
+	} else {
+		fmt.Println("f is greater than e")
+	}
+
+	/*
+	------- Logical Operators -------:
+	Logical operators are used to combine expressions with conditional statements using Logical (AND, OR, NOT) operators which results in True or False.
+
+	[a holds true or 1, b holds false or 0]
+
+	Operator	Name		Description									Expression
+	&&		Logical AND		return true if all expressions are true		(a && b) returns false
+	||		Logical OR		return true if any expression is true		(a || b) returns true
+	!		Logical NOT		return complement of expression				!a returns false
+	*/
+
+	var g, h, i int = 20, 10, 25
+	var flag, result bool
+	flag = false
+	result = (g > h) && (g > i)
+	fmt.Printf("\n (g > h) && (g > i) : %t \n", result)
+	result = (g > h) || (g > i)
+	fmt.Printf("\n (g > h) || (g > i) : %t \n", result)
+	result = !flag
+	fmt.Printf("\n !flag : %t \n", result)
+
+	/*
+	------- Bitwise Operators -------:
+	Bitwise operator are used to perform bit level operations over its operand. The bitwise logical and shift operators are only applicable to integers.
+
+	Operator	Description
+	&			bitwise AND
+	|			bitwise OR
+	^			bitwise XOR
+	&^			bit clear (AND XOR)
+	*/
+
+	var j, k, l int
+	j = 50
+	k = 10
+	l = j & k
+	fmt.Println("j & k : ", l)
+	l = j | k
+	fmt.Println("j | k : ", l)
+	l = j ^ k
+	fmt.Println("j ^ k : ", l)
+	l = j &^ k
+	fmt.Println("j &^ k : ", l)
+
+	/*
+	------- Other Operators -------:
+	Operator 	Name 			Description
+	&		Address of			&a generates a pointer to a
+	*		Pointer to			*a denotes the variable pointed to by a
+	<-		Receive Operator	<-ch is the value received from channel ch
+	*/
+
+	var m int = 30
+	fmt.Println("&m", &m)
+
+	/*
+	------- String Concatenation Operator -------:
+	in go, string can be concatenated using the + operator or the += assignment operator.
+	*/
+	var x, y string = "hello ", "world"
+	var concatenated = x + y
+	fmt.Println(concatenated)
+
+	var z = "Numan "
+	z += "Ibn Mazid"
+	fmt.Println(z)
 }
