@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c1c22c-06a0-4bb8-a4ce-99de4047df6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LEARN HOUSE 1/10_goto_statement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LEARN HOUSE 1/6_if_else.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LEARN HOUSE 1/7_switch_statement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LEARN HOUSE 1/8_for_loop.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LEARN HOUSE 1/9_for_range.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LEARN HOUSE 1/ToDo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LEARN HOUSE 1/11_break_statement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LEARN HOUSE 1/12_continue_statement.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEARN HOUSE 1/5_go_operators.go" beforeDir="false" afterPath="$PROJECT_DIR$/LEARN HOUSE 1/5_go_operators.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEARN HOUSE 1/10_goto_statement.go" beforeDir="false" afterPath="$PROJECT_DIR$/LEARN HOUSE 1/10_goto_statement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEARN HOUSE 1/helper.md" beforeDir="false" afterPath="$PROJECT_DIR$/LEARN HOUSE 1/helper.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,28 +59,28 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 9_for_range.go">
-    <configuration name="go build 5_go_operators.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 12_continue_statement.go">
+    <configuration name="go build 10_goto_statement.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Lang_Intro" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/LEARN HOUSE 1/5_go_operators.go" />
+      <filePath value="$PROJECT_DIR$/LEARN HOUSE 1/10_goto_statement.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 6_if_else.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 11_break_statement.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Lang_Intro" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/LEARN HOUSE 1/6_if_else.go" />
+      <filePath value="$PROJECT_DIR$/LEARN HOUSE 1/11_break_statement.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 7_switch_statement.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 12_continue_statement.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Lang_Intro" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/LEARN HOUSE 1/7_switch_statement.go" />
+      <filePath value="$PROJECT_DIR$/LEARN HOUSE 1/12_continue_statement.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -105,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 12_continue_statement.go" />
+        <item itemvalue="Go Build.go build 11_break_statement.go" />
+        <item itemvalue="Go Build.go build 10_goto_statement.go" />
         <item itemvalue="Go Build.go build 9_for_range.go" />
         <item itemvalue="Go Build.go build 8_loop.go" />
-        <item itemvalue="Go Build.go build 7_switch_statement.go" />
-        <item itemvalue="Go Build.go build 6_if_else.go" />
-        <item itemvalue="Go Build.go build 5_go_operators.go" />
       </list>
     </recent_temporary>
   </component>
